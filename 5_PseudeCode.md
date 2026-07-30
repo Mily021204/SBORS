@@ -1,16 +1,18 @@
+
 Admin Log in
 
-START
+START 
 
 Input Username
 Input Password
-IF Username and Password are correct THEN
-Open Dashboard
-ELSE
-Display "Invalid Username or Password"
-ENDIF
+IF Username and Password are correct THEN 
+Open Dashboard 
+ELSE 
+Display "Invalid Username or Password" 
+ENDIF 
 
 END
+
 
 Add Ordinance
 
@@ -24,13 +26,14 @@ Select Category
 Upload PDF
 
 IF all fields are complete THEN
-Save to Database
-Display "Ordinance Successfully Saved"
+      Save to Database
+      Display "Ordinance Successfully Saved"
 ELSE
-Display "Please Complete Required Fields"
+      Display "Please Complete Required Fields"
 ENDIF
 
 END
+
 
 Add Resolution
 
@@ -44,13 +47,14 @@ Select Category
 Upload PDF
 
 IF all fields are complete THEN
-Save to Database
-Display "Resolution Successfully Saved"
+      Save to Database
+      Display "Resolution Successfully Saved"
 ELSE
-Display "Please Complete Required Fields"
+      Display "Please Complete Required Fields"
 ENDIF
 
 END
+
 
 Search Ordinance
 
@@ -61,10 +65,10 @@ Input Search Keyword
 Search Database
 
 IF record exists THEN
-Display Ordinance Information
-Display View PDF Button
+      Display Ordinance Information
+      Display View PDF Button
 ELSE
-Display "No Record Found"
+      Display "No Record Found"
 ENDIF
 
 END
@@ -78,10 +82,10 @@ Input Search Keyword
 Search Database
 
 IF record exists THEN
-Display Resolution Information
-Display View PDF Button
+      Display Resolution Information
+      Display View PDF Button
 ELSE
-Display "No Record Found"
+      Display "No Record Found"
 ENDIF
 
 END
@@ -95,10 +99,10 @@ Select Record
 Display Confirmation
 
 IF Yes THEN
-Delete Record
-Display "Successfully Deleted"
+      Delete Record
+      Display "Successfully Deleted"
 ELSE
-Cancel Operation
+      Cancel Operation
 ENDIF
 
 END
